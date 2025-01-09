@@ -1,5 +1,11 @@
+import FinanceDashboard from "./components/FinanceDashboard.jsx";
+
 function App() {
-  return <p className="text-red-500">Hello</p>;
+  return (
+    <div>
+      <FinanceDashboard />
+    </div>
+  );
 }
 
 export default App;
