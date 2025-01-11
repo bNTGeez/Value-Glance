@@ -171,7 +171,7 @@ const FinanceDashboard = () => {
 
               {openDate ? (
                 <div className="flex items-center justify-center flex-col">
-                  <div className="w-full max-w-[320px]">
+                  <div className="transform origin-top-left scale-90 md:scale-100 w-full max-w-[320px]">
                     <DateRangePicker
                       ranges={[selectionRange]}
                       onChange={handleSelect}
