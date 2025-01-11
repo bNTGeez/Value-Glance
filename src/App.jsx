@@ -1,9 +1,9 @@
-import FinanceDashboard from "./components/FinanceDashboard.jsx";
+import Homepage from "./components/Homepage.jsx";
 
 function App() {
   return (
     <div>
-      <FinanceDashboard />
+      <Homepage />
     </div>
   );
 }
