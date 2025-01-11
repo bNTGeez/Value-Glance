@@ -171,10 +171,15 @@ const FinanceDashboard = () => {
 
               {openDate ? (
                 <div className="flex items-center justify-center flex-col">
-                  <DateRangePicker
-                    ranges={[selectionRange]}
-                    onChange={handleSelect}
-                  />
+                  <div className="w-full max-w-[320px]">
+                    <DateRangePicker
+                      ranges={[selectionRange]}
+                      onChange={handleSelect}
+                      direction="vertical"
+                      months={1}
+                      className="w-full"
+                    />
+                  </div>
                   <div className="flex flex-row space-x-4">
                     <Button variant="contained" onClick={handleCloseDate}>
                       Close
