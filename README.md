@@ -39,7 +39,9 @@ A financial data filtering app to analyze and filter annual income statements fo
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/bNTGeez/Value-Glance.git
-   cd value-glance
+   cd Value-Glance
+
+   code .
    ```
 
 2. **Install Dependencies**
