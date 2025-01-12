@@ -72,7 +72,7 @@ A financial data filtering app to analyze and filter annual income statements fo
 
 ## 🧩 Usage Instructions
 
-1. **Open the App**: Access the live application using the [link](https://your-deployed-app-link.com).
+1. **Open the App**: Access the live application using the [link](https://valueglance-take-home.netlify.app/).
 2. **View Financial Data**: The data table displays key metrics like Date, Revenue, Net Income, Gross Profit, EPS, and Operating Income.
 3. **Filter Data**:
    - Set a **date range**, **revenue range**, or **net income range** to refine the data.
